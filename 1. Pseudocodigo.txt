@@ -1,0 +1,24 @@
+Función pot(base, exponente):
+    Si exponente es igual a 0:
+        Devolver 1
+    Si exponente es igual a 1:
+        Devolver base
+
+    resultado = 1
+    Para i desde 1 hasta exponente:
+        resultado = resultado * base
+
+    Devolver resultado
+
+Procedimiento main():
+    Escribir("Ingrese la base: ")
+    base = LeerEntero()
+    
+    Escribir("Ingrese el exponente: ")
+    exponente = LeerEntero()
+    
+    resultado = pot(base, exponente)
+    
+    Escribir("El resultado es: ", resultado)
+    
+    Fin del programa
